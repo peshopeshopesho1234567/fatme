@@ -4,6 +4,7 @@ public class Car {
 
 	private String brand;
 	private String model;
+	private float galonsPerMile;
 	
 	public Car(String brand, String model) {
 		super();
@@ -18,5 +19,9 @@ public class Car {
 	public String getModel() {
 		return model;
 	}
-	
+
+	public float getGalonsPerMile() {
+		return galonsPerMile;
+	}
+
 }
